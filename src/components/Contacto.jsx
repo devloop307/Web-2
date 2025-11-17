@@ -31,7 +31,7 @@ export default function Contacto() {
       );
 
       console.log(result.text);
-      setStatus("Mensaje enviado correctamente ✔ Revisa tu Gmail.");
+      setStatus("Mensaje enviado.");
 
       // Limpiar formulario
       setFormData({
