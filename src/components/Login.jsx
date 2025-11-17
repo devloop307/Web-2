@@ -4,7 +4,7 @@ export default function Login({ onLogin }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const validEmail = "123456789@gmail.com";
+  const validEmail = "pierosancas@gmail.com";
   const validPassword = "123456789";
 
   const handleSubmit = (e) => {
